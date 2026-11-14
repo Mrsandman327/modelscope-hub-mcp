@@ -1,0 +1,14 @@
+# 编译产物与验证报告。
+*.test
+*.out
+coverage.*
+
+# 访问凭据与运行时下载，不提交到代码仓库。
+.env
+.env.*
+!.env.example
+skills/
+
+# 独立模块不提交本机工作区配置。
+go.work
+go.work.sum
